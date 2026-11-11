@@ -25,10 +25,11 @@ function roomApiPlugin(): Plugin {
 
 export default defineConfig(() => {
   return {
+    base: './',
     plugins: [react(), tailwindcss(), roomApiPlugin()],
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
+        '@': path.resolve('.'),
       },
     },
     server: {
