@@ -1,0 +1,11 @@
+{
+  "name": "VoxLumina Live",
+  "description": "Real-time live speech and audio translation for church services, conferences, and live events. Free, accessible, and responsive across Android, iOS, and Windows.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
+
